@@ -1,0 +1,11 @@
+name = "alpha_architecture"
+version = "0.1.0"
+defaultTargets = ["AlphaArchitecture"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "f25d4267c9bd8a29d94cc146eb845d284ba1d85e"
+
+[[lean_lib]]
+name = "AlphaArchitecture"
