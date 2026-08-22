@@ -1,0 +1,86 @@
+{
+  "fixed_length_by_depth": {
+    "1": 165,
+    "2": 165,
+    "4": 165,
+    "8": 165,
+    "12": 165,
+    "16": 165,
+    "24": 165,
+    "32": 165
+  },
+  "generator_checks": [
+    {
+      "depth": 1,
+      "input_length": 36,
+      "target": "V8187",
+      "task": "direct_lookup"
+    },
+    {
+      "depth": 4,
+      "input_length": 55,
+      "target": "V5752 V9954 V8875 V6181",
+      "task": "multi_query_recall"
+    },
+    {
+      "depth": 4,
+      "input_length": 132,
+      "target": "N41",
+      "task": "pointer_chasing"
+    },
+    {
+      "depth": 4,
+      "input_length": 132,
+      "target": "N38",
+      "task": "adaptive_pointer_chasing"
+    },
+    {
+      "depth": 4,
+      "input_length": 12,
+      "target": "97",
+      "task": "state_tracking"
+    },
+    {
+      "depth": 4,
+      "input_length": 23,
+      "target": "30",
+      "task": "iterated_function"
+    },
+    {
+      "depth": 1,
+      "input_length": 132,
+      "target": "V6210",
+      "task": "distractor_retrieval"
+    },
+    {
+      "depth": 4,
+      "input_length": 165,
+      "target": "N62",
+      "task": "fixed_length_pointer"
+    }
+  ],
+  "ood_depths": [
+    12,
+    16,
+    24,
+    32
+  ],
+  "seed": 1729,
+  "status": "pass",
+  "suite_counts": {
+    "1": 8,
+    "12": 8,
+    "16": 8,
+    "2": 8,
+    "24": 8,
+    "32": 8,
+    "4": 8,
+    "8": 8
+  },
+  "train_depths": [
+    1,
+    2,
+    4,
+    8
+  ]
+}

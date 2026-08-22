@@ -1,0 +1,43 @@
+{
+  "configuration": "wikitext-103-raw-v1",
+  "dataset": "Salesforce/wikitext",
+  "packing": "concatenate each parquet text row followed by <eos>; fixed contiguous windows",
+  "source_files": {
+    "data/raw/test-00000-of-00001.parquet": {
+      "bytes": 732610,
+      "sha256": "5f1bea067869d04849c0f975a2b29c4ff47d867f484f5010ea5e861eab246d91"
+    },
+    "data/raw/train-00000-of-00002.parquet": {
+      "bytes": 156987808,
+      "sha256": "74da360f23826045b3e6ac6375411fdb15f003030aa74f2596ed08b857cb9212"
+    },
+    "data/raw/train-00001-of-00002.parquet": {
+      "bytes": 157088770,
+      "sha256": "ba090ac30dbf5461e8dcbdd1a1b8e6f3cf9c2c756d64f0c1220450acd514f720"
+    },
+    "data/raw/validation-00000-of-00001.parquet": {
+      "bytes": 657209,
+      "sha256": "204929b7ff9d6184953f867dedb860e40aa69c078fc1e54b3baaa8fb28511c4c"
+    }
+  },
+  "source_revision": "main (retrieved 2026-08-22)",
+  "special_tokens": {
+    "<bos>": 2,
+    "<eos>": 3,
+    "<pad>": 0,
+    "<unk>": 1
+  },
+  "token_counts": {
+    "test": 276590,
+    "train": 115877860,
+    "validation": 242983
+  },
+  "token_paths": {
+    "test": "data/processed/test_tokens.npy",
+    "train": "data/processed/train_tokens.npy",
+    "validation": "data/processed/validation_tokens.npy"
+  },
+  "tokenizer_sha256": "fa3e4b39add37d81eb91f8bad50f27e51d43030452721cc1bc22fd37768b0ea7",
+  "tokenizer_type": "ByteLevel BPE",
+  "tokenizer_vocab_size": 32000
+}

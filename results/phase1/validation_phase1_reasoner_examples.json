@@ -1,0 +1,537 @@
+{
+  "0_to_1": [
+    {
+      "index": 165042,
+      "token_id": 255,
+      "token": " A",
+      "gain": -15.620512962341309,
+      "position": 178
+    },
+    {
+      "index": 239077,
+      "token_id": 12324,
+      "token": "Down",
+      "gain": -14.624893188476562,
+      "position": 485
+    },
+    {
+      "index": 88755,
+      "token_id": 16476,
+      "token": " everyday",
+      "gain": -10.799047470092773,
+      "position": 179
+    },
+    {
+      "index": 222010,
+      "token_id": 28967,
+      "token": "comings",
+      "gain": -10.694568634033203,
+      "position": 314
+    },
+    {
+      "index": 104308,
+      "token_id": 21558,
+      "token": " filters",
+      "gain": -10.608733177185059,
+      "position": 372
+    },
+    {
+      "index": 201622,
+      "token_id": 320,
+      "token": " by",
+      "gain": 5.881553649902344,
+      "position": 406
+    },
+    {
+      "index": 230975,
+      "token_id": 8933,
+      "token": " illegal",
+      "gain": 5.881568908691406,
+      "position": 63
+    },
+    {
+      "index": 151571,
+      "token_id": 223,
+      "token": " .",
+      "gain": 5.881580352783203,
+      "position": 19
+    },
+    {
+      "index": 84257,
+      "token_id": 222,
+      "token": "at",
+      "gain": 5.881600379943848,
+      "position": 289
+    },
+    {
+      "index": 62417,
+      "token_id": 765,
+      "token": " day",
+      "gain": 5.881608009338379,
+      "position": 465
+    },
+    {
+      "index": 168065,
+      "token_id": 244,
+      "token": " m",
+      "gain": 11.143608093261719,
+      "position": 129
+    },
+    {
+      "index": 106671,
+      "token_id": 244,
+      "token": " m",
+      "gain": 11.15306568145752,
+      "position": 175
+    },
+    {
+      "index": 210411,
+      "token_id": 273,
+      "token": " M",
+      "gain": 11.172158241271973,
+      "position": 491
+    },
+    {
+      "index": 137929,
+      "token_id": 8243,
+      "token": " Hong",
+      "gain": 11.173870086669922,
+      "position": 201
+    },
+    {
+      "index": 24859,
+      "token_id": 2455,
+      "token": " Angel",
+      "gain": 11.418837547302246,
+      "position": 283
+    }
+  ],
+  "1_to_2": [
+    {
+      "index": 206196,
+      "token_id": 937,
+      "token": "iver",
+      "gain": -1.4563941955566406,
+      "position": 372
+    },
+    {
+      "index": 155271,
+      "token_id": 7408,
+      "token": " measures",
+      "gain": -0.9350795745849609,
+      "position": 135
+    },
+    {
+      "index": 95056,
+      "token_id": 12181,
+      "token": " clouds",
+      "gain": -0.7744245529174805,
+      "position": 336
+    },
+    {
+      "index": 153589,
+      "token_id": 6902,
+      "token": " differences",
+      "gain": -0.7712545394897461,
+      "position": 501
+    },
+    {
+      "index": 220153,
+      "token_id": 19801,
+      "token": "ftime",
+      "gain": -0.7574653625488281,
+      "position": 505
+    },
+    {
+      "index": 102333,
+      "token_id": 240,
+      "token": " and",
+      "gain": 0.0013638734817504883,
+      "position": 445
+    },
+    {
+      "index": 92931,
+      "token_id": 76,
+      "token": "i",
+      "gain": 0.0013638995587825775,
+      "position": 259
+    },
+    {
+      "index": 237424,
+      "token_id": 235,
+      "token": " in",
+      "gain": 0.0013644695281982422,
+      "position": 368
+    },
+    {
+      "index": 196077,
+      "token_id": 973,
+      "token": " American",
+      "gain": 0.0013647079467773438,
+      "position": 493
+    },
+    {
+      "index": 68235,
+      "token_id": 7995,
+      "token": " destroyers",
+      "gain": 0.0013647079467773438,
+      "position": 139
+    },
+    {
+      "index": 171013,
+      "token_id": 81,
+      "token": "n",
+      "gain": 0.4607715606689453,
+      "position": 5
+    },
+    {
+      "index": 153118,
+      "token_id": 19444,
+      "token": " Bly",
+      "gain": 0.4668647050857544,
+      "position": 30
+    },
+    {
+      "index": 242079,
+      "token_id": 15724,
+      "token": " discrimination",
+      "gain": 0.4813249111175537,
+      "position": 415
+    },
+    {
+      "index": 14859,
+      "token_id": 2698,
+      "token": " Mer",
+      "gain": 0.49272918701171875,
+      "position": 11
+    },
+    {
+      "index": 97299,
+      "token_id": 12162,
+      "token": "rians",
+      "gain": 0.5323065519332886,
+      "position": 19
+    }
+  ],
+  "2_to_4": [
+    {
+      "index": 206196,
+      "token_id": 937,
+      "token": "iver",
+      "gain": -2.711362838745117,
+      "position": 372
+    },
+    {
+      "index": 220153,
+      "token_id": 19801,
+      "token": "ftime",
+      "gain": -1.6824102401733398,
+      "position": 505
+    },
+    {
+      "index": 95056,
+      "token_id": 12181,
+      "token": " clouds",
+      "gain": -1.5982904434204102,
+      "position": 336
+    },
+    {
+      "index": 155271,
+      "token_id": 7408,
+      "token": " measures",
+      "gain": -1.5982742309570312,
+      "position": 135
+    },
+    {
+      "index": 153589,
+      "token_id": 6902,
+      "token": " differences",
+      "gain": -1.559412956237793,
+      "position": 501
+    },
+    {
+      "index": 85496,
+      "token_id": 236,
+      "token": "al",
+      "gain": 0.00032139522954821587,
+      "position": 504
+    },
+    {
+      "index": 123358,
+      "token_id": 86,
+      "token": "s",
+      "gain": 0.00032160617411136627,
+      "position": 478
+    },
+    {
+      "index": 93440,
+      "token_id": 236,
+      "token": "al",
+      "gain": 0.0003219853388145566,
+      "position": 256
+    },
+    {
+      "index": 194982,
+      "token_id": 86,
+      "token": "s",
+      "gain": 0.0003222645027562976,
+      "position": 422
+    },
+    {
+      "index": 99254,
+      "token_id": 86,
+      "token": "s",
+      "gain": 0.00032238708809018135,
+      "position": 438
+    },
+    {
+      "index": 171228,
+      "token_id": 5303,
+      "token": "attle",
+      "gain": 0.8598184585571289,
+      "position": 220
+    },
+    {
+      "index": 234584,
+      "token_id": 257,
+      "token": " \"",
+      "gain": 0.9021883010864258,
+      "position": 88
+    },
+    {
+      "index": 199370,
+      "token_id": 23216,
+      "token": "oulder",
+      "gain": 0.9057817459106445,
+      "position": 202
+    },
+    {
+      "index": 35329,
+      "token_id": 79,
+      "token": "l",
+      "gain": 0.9291889667510986,
+      "position": 1
+    },
+    {
+      "index": 77324,
+      "token_id": 27663,
+      "token": " verge",
+      "gain": 1.0077182054519653,
+      "position": 12
+    }
+  ],
+  "4_to_8": [
+    {
+      "index": 22017,
+      "token_id": 3479,
+      "token": "oes",
+      "gain": -8.189345359802246,
+      "position": 1
+    },
+    {
+      "index": 37376,
+      "token_id": 1677,
+      "token": " cast",
+      "gain": -7.06336784362793,
+      "position": 0
+    },
+    {
+      "index": 194048,
+      "token_id": 25386,
+      "token": " affiliation",
+      "gain": -6.711843490600586,
+      "position": 0
+    },
+    {
+      "index": 219136,
+      "token_id": 12883,
+      "token": " qualities",
+      "gain": -6.20399284362793,
+      "position": 0
+    },
+    {
+      "index": 196608,
+      "token_id": 5995,
+      "token": " Imperial",
+      "gain": -5.809772491455078,
+      "position": 0
+    },
+    {
+      "index": 162970,
+      "token_id": 276,
+      "token": " on",
+      "gain": -0.00559234619140625,
+      "position": 154
+    },
+    {
+      "index": 142651,
+      "token_id": 692,
+      "token": " game",
+      "gain": -0.005590938962996006,
+      "position": 315
+    },
+    {
+      "index": 50117,
+      "token_id": 4565,
+      "token": " Week",
+      "gain": -0.00559036061167717,
+      "position": 453
+    },
+    {
+      "index": 235206,
+      "token_id": 297,
+      "token": " as",
+      "gain": -0.005589604377746582,
+      "position": 198
+    },
+    {
+      "index": 13732,
+      "token_id": 252,
+      "token": " =",
+      "gain": -0.005588643252849579,
+      "position": 420
+    },
+    {
+      "index": 161792,
+      "token_id": 2120,
+      "token": " !",
+      "gain": 1.6807937622070312,
+      "position": 0
+    },
+    {
+      "index": 209920,
+      "token_id": 288,
+      "token": " @-@",
+      "gain": 1.68623948097229,
+      "position": 0
+    },
+    {
+      "index": 141824,
+      "token_id": 224,
+      "token": "or",
+      "gain": 1.7913365364074707,
+      "position": 0
+    },
+    {
+      "index": 171228,
+      "token_id": 5303,
+      "token": "attle",
+      "gain": 1.9234662055969238,
+      "position": 220
+    },
+    {
+      "index": 234584,
+      "token_id": 257,
+      "token": " \"",
+      "gain": 2.1967358589172363,
+      "position": 88
+    }
+  ],
+  "0_to_8": [
+    {
+      "index": 165042,
+      "token_id": 255,
+      "token": " A",
+      "gain": -18.316326141357422,
+      "position": 178
+    },
+    {
+      "index": 206196,
+      "token_id": 937,
+      "token": "iver",
+      "gain": -17.7176513671875,
+      "position": 372
+    },
+    {
+      "index": 104308,
+      "token_id": 21558,
+      "token": " filters",
+      "gain": -14.371705055236816,
+      "position": 372
+    },
+    {
+      "index": 97896,
+      "token_id": 21558,
+      "token": " filters",
+      "gain": -14.291566848754883,
+      "position": 104
+    },
+    {
+      "index": 3731,
+      "token_id": 19247,
+      "token": "quartered",
+      "gain": -13.94739055633545,
+      "position": 147
+    },
+    {
+      "index": 25299,
+      "token_id": 241,
+      "token": " to",
+      "gain": 5.877333641052246,
+      "position": 211
+    },
+    {
+      "index": 187390,
+      "token_id": 1327,
+      "token": " included",
+      "gain": 5.877333641052246,
+      "position": 510
+    },
+    {
+      "index": 162034,
+      "token_id": 240,
+      "token": " and",
+      "gain": 5.877351760864258,
+      "position": 242
+    },
+    {
+      "index": 150755,
+      "token_id": 602,
+      "token": " On",
+      "gain": 5.877366065979004,
+      "position": 227
+    },
+    {
+      "index": 128815,
+      "token_id": 1879,
+      "token": " General",
+      "gain": 5.877382278442383,
+      "position": 303
+    },
+    {
+      "index": 168065,
+      "token_id": 244,
+      "token": " m",
+      "gain": 11.160977363586426,
+      "position": 129
+    },
+    {
+      "index": 106671,
+      "token_id": 244,
+      "token": " m",
+      "gain": 11.164509773254395,
+      "position": 175
+    },
+    {
+      "index": 210411,
+      "token_id": 273,
+      "token": " M",
+      "gain": 11.175554275512695,
+      "position": 491
+    },
+    {
+      "index": 137929,
+      "token_id": 8243,
+      "token": " Hong",
+      "gain": 11.201201438903809,
+      "position": 201
+    },
+    {
+      "index": 24859,
+      "token_id": 2455,
+      "token": " Angel",
+      "gain": 11.419054985046387,
+      "position": 283
+    }
+  ]
+}

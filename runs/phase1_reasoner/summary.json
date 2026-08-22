@@ -1,0 +1,28 @@
+{
+  "batch_size": 32,
+  "config": {
+    "d_model": 256,
+    "d_state": 64,
+    "dropout": 0.0,
+    "headdim": 64,
+    "mamba_chunk_size": 64,
+    "mamba_expand": 2,
+    "max_depth": 8,
+    "n_stream_blocks": 6,
+    "reasoner_heads": 4,
+    "reasoner_mlp_hidden": 384,
+    "vocab_size": 32000
+  },
+  "elapsed_seconds": 1312.1401797789986,
+  "epochs_completed": 2,
+  "epochs_requested": 2,
+  "global_steps": 14146,
+  "grad_accumulation": 1,
+  "learning_rate": 0.0006,
+  "model": "reasoner",
+  "parameters": 11375968,
+  "run_name": "phase1_reasoner",
+  "sequence_length": 512,
+  "status": "complete",
+  "trainable_parameters": 11375968
+}

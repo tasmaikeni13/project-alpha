@@ -1,0 +1,92 @@
+{
+  "accelerator": {
+    "cuda_available": true,
+    "torch_cuda_api": null,
+    "torch_hip": "7.0.51831"
+  },
+  "commands": {
+    "rocm_smi_full": {
+      "command": [
+        "rocm-smi"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "============================================= ROCm System Management Interface =============================================\n======================================================= Concise Info =======================================================\nDevice  Node  IDs              Temp        Power     Partitions          SCLK     MCLK     Fan  Perf  PwrCap  VRAM%  GPU%  \n\u001b[3m              (DID,     GUID)  (Junction)  (Socket)  (Mem, Compute, ID)                                                    \u001b[0m\n============================================================================================================================\n0       1     0x74b5,   21947  38.0\u00b0C      226.0W    NPS1, SPX, 0        1942Mhz  1300Mhz  0%   auto  750.0W  0%     5%    \n============================================================================================================================\n=================================================== End of ROCm SMI Log ===================================================="
+    },
+    "rocminfo": {
+      "command": [
+        "rocminfo"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "\u001b[37mROCk module version 6.19.14.31400000 is loaded\u001b[0m\n=====================    \nHSA System Attributes    \n=====================    \nRuntime Version:         1.21\nRuntime Ext Version:     1.26\nSystem Timestamp Freq.:  1000.000000MHz\nSig. Max Wait Duration:  18446744073709551615 (0xFFFFFFFFFFFFFFFF) (timestamp count)\nMachine Model:           LARGE                              \nSystem Endianness:       LITTLE                             \nMwaitx:                  DISABLED\nXNACK enabled:           NO\nDMAbuf Support:          YES\nVMM Support:             YES\nFabric Support:          NO\n\n==========               \nHSA Agents               \n==========               \n*******                  \nAgent 1                  \n*******                  \n  Name:                    INTEL(R) XEON(R) PLATINUM 8568Y+   \n  Uuid:                    CPU-XX                             \n  Marketing Name:          INTEL(R) XEON(R) PLATINUM 8568Y+   \n  Vendor Name:             CPU                                \n  Feature:                 None specified                     \n  Profile:                 FULL_PROFILE                       \n  Float Round Mode:        NEAR                               \n  Max Queue Number:        0(0x0)                             \n  Queue Min Size:          0(0x0)                             \n  Queue Max Size:          0(0x0)                             \n  Queue Type:              MULTI                              \n  Node:                    0                                  \n  Device Type:             CPU                                \n  Cache Info:              \n    L1:                      32768(0x8000) KB                   \n  Chip ID:                 0(0x0)                             \n  ASIC Revision:           0(0x0)                             \n  Cacheline Size:          64(0x40)                           \n  Max Clock Freq. (MHz):   0                                  \n  BDFID:                   0                                  \n  Internal Node ID:        0                                  \n  Compute Unit:            20                                 \n  SIMDs per CU:            0                                  \n  Shader Engines:          0                                  \n  Shader Arrs. per Eng.:   0                                  \n  WatchPts on Addr. Ranges:1                                  \n  Memory Properties:       \n  Features:                None\n  Pool Info:               \n    Pool 1                   \n      Segment:                 GLOBAL; FLAGS: FINE GRAINED        \n      Size:                    247409212(0xebf2a3c) KB            \n      Allocatable:             TRUE                               \n      Alloc Granule:           4KB                                \n      Alloc Recommended Granule:4KB                                \n      Alloc Alignment:         4KB                                \n      Accessible by all:       TRUE                               \n    Pool 2                   \n      Segment:                 GLOBAL; FLAGS: EXTENDED FINE GRAINED\n      Size:                    247409212(0xebf2a3c) KB            \n      Allocatable:             TRUE                               \n      Alloc Granule:           4KB                                \n      Alloc Recommended Granule:4KB                                \n      Alloc Alignment:         4KB                                \n      Accessible by all:       TRUE                               \n    Pool 3                   \n      Segment:                 GLOBAL; FLAGS: KERNARG, FINE GRAINED\n      Size:                    247409212(0xebf2a3c) KB            \n      Allocatable:             TRUE                               \n      Alloc Granule:           4KB                                \n      Alloc Recommended Granule:4KB                                \n      Alloc Alignment:         4KB                                \n      Accessible by all:       TRUE                               \n    Pool 4                   \n      Segment:                 GLOBAL; FLAGS: COARSE GRAINED      \n      Size:                    247409212(0xebf2a3c) KB            \n      Allocatable:             TRUE                               \n      Alloc Granule:           4KB                                \n      Alloc Recommended Granule:4KB                                \n      Alloc Alignment:         4KB                                \n      Accessible by all:       TRUE                               \n  ISA Info:                \n*******                  \nAgent 2                  \n*******                  \n  Name:                    gfx942                             \n  Uuid:                    GPU-d2687486942aee11               \n  Marketing Name:          AMD Instinct MI300X VF             \n  Vendor Name:             AMD                                \n  Feature:                 KERNEL_DISPATCH                    \n  Profile:                 BASE_PROFILE                       \n  Float Round Mode:        NEAR                               \n  Max Queue Number:        128(0x80)                          \n  Queue Min Size:          64(0x40)                           \n  Queue Max Size:          131072(0x20000)                    \n  Queue Type:              MULTI                              \n  Node:                    1                                  \n  Device Type:             GPU                                \n  Cache Info:              \n    L1:                      32(0x20) KB                        \n    L2:                      4096(0x1000) KB                    \n    L3:                      262144(0x40000) KB                 \n  Chip ID:                 29877(0x74b5)                      \n  ASIC Revision:           1(0x1)                             \n  Cacheline Size:          128(0x80)                          \n  Max Clock Freq. (MHz):   2100                               \n  BDFID:                   33536                              \n  Internal Node ID:        1                                  \n  Compute Unit:            304                                \n  SIMDs per CU:            4                                  \n  Shader Engines:          32                                 \n  Shader Arrs. per Eng.:   1                                  \n  WatchPts on Addr. Ranges:4                                  \n  Coherent Host Access:    FALSE                              \n  Memory Properties:       \n  Features:                KERNEL_DISPATCH \n  Fast F16 Operation:      TRUE                               \n  Wavefront Size:          64(0x40)                           \n  Workgroup Max Size:      1024(0x400)                        \n  Workgroup Max Size per Dimension:\n    x                        1024(0x400)                        \n    y                        1024(0x400)                        \n    z                        1024(0x400)                        \n  Max Waves Per CU:        32(0x20)                           \n  Max Work-item Per CU:    2048(0x800)                        \n  Grid Max Size:           4294967295(0xffffffff)             \n  Grid Max Size per Dimension:\n    x                        4294967295(0xffffffff)             \n    y                        65535(0xffff)                      \n    z                        65535(0xffff)                      \n  Max fbarriers/Workgrp:   32                                 \n  Packet Processor uCode:: 189                                \n  SDMA engine uCode::      24                                 \n  IOMMU Support::          None                               \n  Pool Info:               \n    Pool 1                   \n      Segment:                 GLOBAL; FLAGS: COARSE GRAINED      \n      Size:                    200998912(0xbfb0000) KB            \n      Allocatable:             TRUE                               \n      Alloc Granule:           4KB                                \n      Alloc Recommended Granule:2048KB                             \n      Alloc Alignment:         4KB                                \n      Accessible by all:       FALSE                              \n    Pool 2                   \n      Segment:                 GLOBAL; FLAGS: EXTENDED FINE GRAINED\n      Size:                    200998912(0xbfb0000) KB            \n      Allocatable:             TRUE                               \n      Alloc Granule:           4KB                                \n      Alloc Recommended Granule:2048KB                             \n      Alloc Alignment:         4KB                                \n      Accessible by all:       FALSE                              \n    Pool 3                   \n      Segment:                 GLOBAL; FLAGS: FINE GRAINED        \n      Size:                    200998912(0xbfb0000) KB            \n      Allocatable:             TRUE                               \n      Alloc Granule:           4KB                                \n      Alloc Recommended Granule:2048KB                             \n      Alloc Alignment:         4KB                                \n      Accessible by all:       FALSE                              \n    Pool 4                   \n      Segment:                 GROUP                              \n      Size:                    64(0x40) KB                        \n      Allocatable:             FALSE                              \n      Alloc Granule:           0KB                                \n      Alloc Recommended Granule:0KB                                \n      Alloc Alignment:         0KB                                \n      Accessible by all:       FALSE                              \n  ISA Info:                \n    ISA 1                    \n      Name:                    amdgcn-amd-amdhsa--gfx942:sramecc+:xnack-\n      Machine Models:          HSA_MACHINE_MODEL_LARGE            \n      Profiles:                HSA_PROFILE_BASE                   \n      Default Rounding Mode:   NEAR                               \n      Default Rounding Mode:   NEAR                               \n      Fast f16:                TRUE                               \n      Workgroup Max Size:      1024(0x400)                        \n      Workgroup Max Size per Dimension:\n        x                        1024(0x400)                        \n        y                        1024(0x400)                        \n        z                        1024(0x400)                        \n      Grid Max Size:           4294967295(0xffffffff)             \n      Grid Max Size per Dimension:\n        x                        2147483647(0x7fffffff)             \n        y                        65535(0xffff)                      \n        z                        65535(0xffff)                      \n      FBarrier Max Size:       32                                 \n    ISA 2                    \n      Name:                    amdgcn-amd-amdhsa--gfx9-4-generic:sramecc+:xnack-\n      Machine Models:          HSA_MACHINE_MODEL_LARGE            \n      Profiles:                HSA_PROFILE_BASE                   \n      Default Rounding Mode:   NEAR                               \n      Default Rounding Mode:   NEAR                               \n      Fast f16:                TRUE                               \n      Workgroup Max Size:      1024(0x400)                        \n      Workgroup Max Size per Dimension:\n        x                        1024(0x400)                        \n        y                        1024(0x400)                        \n        z                        1024(0x400)                        \n      Grid Max Size:           4294967295(0xffffffff)             \n      Grid Max Size per Dimension:\n        x                        2147483647(0x7fffffff)             \n        y                        65535(0xffff)                      \n        z                        65535(0xffff)                      \n      FBarrier Max Size:       32                                 \n*** Done ***"
+    }
+  },
+  "compiler_toolchain": {
+    "gcc": {
+      "command": [
+        "gcc",
+        "--version"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+    },
+    "hipcc": {
+      "command": [
+        "hipcc",
+        "--version"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "HIP version: 7.14.60850-0000000\nAMD clang version 23.0.0git (https://github.com/ROCm/llvm-project.git 46fcb339fb61119b337f973c7ca9e710a319fdd0+PATCHED:440716f8b87be9d8e20ed910e10e5b6d14d57cf6)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\nInstalledDir: /opt/rocm-7.0.2/core-7.14/lib/llvm/bin"
+    },
+    "hipconfig": {
+      "command": [
+        "hipconfig",
+        "--full"
+      ],
+      "returncode": 0,
+      "stderr": "sh: 1: /opt/rocm-7.0.2/core-7.14/lib/llvm/bin/llc: not found",
+      "stdout": "HIP version: 7.14.60850-0000000\n\n==hipconfig\nHIP_PATH           :/opt/rocm-7.0.2/core-7.14\nROCM_PATH          :/opt/rocm-7.0.2/core-7.14\nHIP_COMPILER       :clang\nHIP_PLATFORM       :amd\nHIP_RUNTIME        :rocclr\nCPP_CONFIG         : -D__HIP_PLATFORM_HCC__= -D__HIP_PLATFORM_AMD__= -I/opt/rocm-7.0.2/core-7.14/include -I/include\n\n==hip-clang\nHIP_CLANG_PATH     :/opt/rocm-7.0.2/core-7.14/lib/llvm/bin\nAMD clang version 23.0.0git (https://github.com/ROCm/llvm-project.git 46fcb339fb61119b337f973c7ca9e710a319fdd0+PATCHED:440716f8b87be9d8e20ed910e10e5b6d14d57cf6)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\nInstalledDir: /opt/rocm-7.0.2/core-7.14/lib/llvm/bin\nhip-clang-cxxflags :\n -O3\nhip-clang-ldflags :\n--driver-mode=g++ -O3 --hip-link\n\n== Environment Variables\nPATH =/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/opt/rocm/core-7.14/bin:/root/.codex/tmp/arg0/codex-arg0Tmg8AB:/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/opt/rocm/core-7.14/bin:/opt/rocm/core-7.14/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin\n\n== Linux Kernel\nHostname      :\nrocm-7-14-software-gpu-mi300x1-192gb-devcloud-atl1\nLinux rocm-7-14-software-gpu-mi300x1-192gb-devcloud-atl1 6.8.0-134-generic #134-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun 26 18:43:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux\nDistributor ID:\tUbuntu\nDescription:\tUbuntu 24.04.4 LTS\nRelease:\t24.04\nCodename:\tnoble"
+    },
+    "rocm_smi": {
+      "command": [
+        "rocm-smi",
+        "--showproductname",
+        "--showmeminfo",
+        "vram"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "============================ ROCm System Management Interface ============================\n================================== Memory Usage (Bytes) ==================================\nGPU[0]\t\t: VRAM Total Memory (B): 205822885888\nGPU[0]\t\t: VRAM Total Used Memory (B): 1068699648\n==========================================================================================\n====================================== Product Info ======================================\nGPU[0]\t\t: Card Series: \t\tAMD Instinct MI300X VF\nGPU[0]\t\t: Card Model: \t\t0x74b5\nGPU[0]\t\t: Card Vendor: \t\tAdvanced Micro Devices, Inc. [AMD/ATI]\nGPU[0]\t\t: Card SKU: \t\tM3000100\nGPU[0]\t\t: Subsystem ID: \t0x74a1\nGPU[0]\t\t: Device Rev: \t\t0x00\nGPU[0]\t\t: Node ID: \t\t1\nGPU[0]\t\t: GUID: \t\t21947\nGPU[0]\t\t: GFX Version: \t\tgfx942\n==========================================================================================\n================================== End of ROCm SMI Log ==================================="
+    }
+  },
+  "gpu": {
+    "count": 1,
+    "gcn_arch": "gfx942:sramecc+:xnack-",
+    "major": 9,
+    "minor": 4,
+    "multiprocessors": 304,
+    "name": "AMD Instinct MI300X VF",
+    "total_memory_bytes": 205822885888
+  },
+  "official_mamba3": {
+    "commit": "e9594ce1c732d97440f0332fdc43170a2294dbfa",
+    "source": "https://github.com/state-spaces/mamba",
+    "status": "Triton SISO kernel import succeeded; MI300X forward probe failed during LLVM register allocation; Phase-1 uses the PyTorch equation-level fallback."
+  },
+  "os": {
+    "machine": "x86_64",
+    "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "release": "6.8.0-134-generic",
+    "system": "Linux"
+  },
+  "software": {
+    "torch": "2.10.0+rocm7.0",
+    "triton": "3.6.0"
+  },
+  "timestamp_utc": "2026-08-22T15:33:19.879945+00:00",
+  "triton_kernel_policy": "No custom HIP/CUDA kernel; no unverified Mamba-3 Triton kernel in the training result."
+}

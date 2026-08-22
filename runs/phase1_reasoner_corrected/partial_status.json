@@ -1,0 +1,12 @@
+{
+  "status": "halted_by_user",
+  "model": "reasoner",
+  "implementation": "corrected_mamba3_reference",
+  "steps_completed_at_last_log": 5400,
+  "target_steps": 14146,
+  "epochs_target": 2,
+  "latest_periodic_checkpoint": "runs/phase1_reasoner_corrected/last.pt",
+  "checkpoint_policy": "excluded_from_git_due_to_size",
+  "final_summary_written": false,
+  "reason": "user_requested_stop"
+}

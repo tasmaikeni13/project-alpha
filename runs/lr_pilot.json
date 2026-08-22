@@ -1,0 +1,38 @@
+{
+  "candidates": [
+    {
+      "final_loss": 8.347454071044922,
+      "finite": true,
+      "initial_loss": 10.423492431640625,
+      "lr": 0.0002,
+      "parameters": 11375968,
+      "steps": 24
+    },
+    {
+      "final_loss": 7.962540149688721,
+      "finite": true,
+      "initial_loss": 10.423492431640625,
+      "lr": 0.0003,
+      "parameters": 11375968,
+      "steps": 24
+    },
+    {
+      "final_loss": 7.767119407653809,
+      "finite": true,
+      "initial_loss": 10.423492431640625,
+      "lr": 0.0005,
+      "parameters": 11375968,
+      "steps": 24
+    },
+    {
+      "final_loss": 7.741731643676758,
+      "finite": true,
+      "initial_loss": 10.423492431640625,
+      "lr": 0.0006,
+      "parameters": 11375968,
+      "steps": 24
+    }
+  ],
+  "selected_lr": 0.0006,
+  "selection": "lowest final pilot loss among finite runs"
+}

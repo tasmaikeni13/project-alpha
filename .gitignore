@@ -3,3 +3,19 @@ lean/.lake/
 *.olean
 *.ilean
 *.c
+
+.venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded/raw and generated token arrays are reproducible from metadata.
+data/raw/
+data/processed/*_tokens.npy
+
+# Local model weights and profiler traces are too large for the source repo.
+runs/*/*.pt
+results/phase1/torch_profiler/
+results/phase1/*.npz
+
+# Keep local smoke outputs out of the source history.
+results/phase1/smoke_eval/

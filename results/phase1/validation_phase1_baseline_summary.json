@@ -1,0 +1,46 @@
+{
+  "artifact": "results/phase1/validation_phase1_baseline.npz",
+  "best_depth_histogram": {
+    "0": 242688
+  },
+  "checkpoint": "runs/phase1_baseline/last.pt",
+  "checkpoint_global_step": 14146,
+  "correlation_dstar_0.05": {},
+  "dstar_histograms": {
+    "0.01": {
+      "0": 242688
+    },
+    "0.03": {
+      "0": 242688
+    },
+    "0.05": {
+      "0": 242688
+    },
+    "0.10": {
+      "0": 242688
+    }
+  },
+  "examples": 474,
+  "harmed_fraction_0_to_8": null,
+  "helped_fraction_0_to_8": null,
+  "logit_seconds_per_batch_approx": {
+    "0": 0.6460019754670309
+  },
+  "marginal_gain_std": {},
+  "mean_marginal_gain": {},
+  "model_parameters": 11255792,
+  "perplexity": {
+    "0": 47.18248491045346
+  },
+  "split": "validation",
+  "target_tokens": 242688,
+  "token_feature_rates": {
+    "is_code_like": 0.029387526214122772,
+    "is_numeric": 0.03278695419430733,
+    "is_punctuation": 0.15256214141845703
+  },
+  "validation_loss": {
+    "0": 3.854022741317749
+  },
+  "zero_fraction_0_to_8": null
+}
